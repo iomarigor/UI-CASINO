@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+body{
+	margin: 0px;
+	padding: 0px;
+	overflow-x: hidden;
+}
+header{
+	display: flex;
+	padding: 0px;
+	width: 100vw;
+	height: 100vh;
+}
+.nav{
+	display: flex;
+	padding: 0px;
+	
+	width: 100%;
+	height: 42px;
+}
+.w-full{
+	width: 100%;
+}
+.row{
+	flex-direction: row;
+}
+.col{
+	flex-direction: column;
+}
+.c-full{
+	width: 100%;
+}
+.c1-12{
+	width: 8.55%;
+}
+.c2-12{
+	width: 16.88%;
+}
+.c3-12{
+	width: 25.99%;
+}
+.c4-12{
+	width: 33.44%;
+}
+.c5-12{
+	width: 41.77%;
+}
+.c6-12{
+	width: 50.00%;
+}
+.c7-12{
+	width: 58.33%;
+}
+.c8-12{
+	width: 66.66%;
+}
+.c9-12{
+	width: 75.99%;
+}
+.c10-12{
+	width: 84.22%;
+}
+.c11-12{
+	width: 92.55%;
+}
+.c12-12{
+	width: 100%;
+}
+.bg-black{
+	background-color: rgb(49, 48, 48);
+}
+.bg-grey{
+	background-color: rgb(58, 58, 58);
+}
+.btn{
+	min-width: 120px;
+	height: 32px;
+	border-radius: 5px;
+	text-decoration:none;
+	font-size:12px;
+	text-transform: uppercase;
+	border: unset;
+	color:#ffffff;
+	padding:5px 8px;
+	font-family: 'Open Sans', sans-serif;
+}
+.btn-primary{
+	color: black;
+	background-color: rgb(243, 233, 92);	
+}
+.btn-secondary{
+	color: white;
+	background-color: rgb(58, 58, 58);
+}
+.items-center{
+	align-items: center;
+}
+.justify-center{
+	justify-content: center;
+}
+.justify-around{
+	justify-content: space-around;
+}
+.flex{
+	display: flex;
+}
+.nav-burger>a{
+	width: 42px;
+	height: 42px;
+}
+.nav-burger>a>img{
+	width: 42px;
+	height: 42px;
+	filter: invert(100%);
+}
+.nav-logo{
+	width: 100px;
+	height: 32px;
+}
+.nav-logo>img{
+	width: 100px;
+	height: 42px;
+	object-fit: contain;
+}
+.p-relative{
+	position: relative;
+}
+.p-absolute{
+	position: absolute;
+}
+header>img{
+	width: 100vw;
+	height: 100vh;
+	position: absolute;
+	z-index: -1;
+	object-fit: fill;
+}
