@@ -73,7 +73,9 @@ header{
 	background-color: rgb(58, 58, 58);
 }
 .btn{
-	min-width: 40%;
+	min-width: 120px;
+	max-width: 35%;
+	width: 35%;
 	height: 60%;
 	border-radius: 5px;
 	text-decoration:none;
@@ -81,6 +83,7 @@ header{
 	text-transform: uppercase;
 	border: unset;
 	color:#ffffff;
+	margin: 0px 8px;
 	padding:5px 8px;
 	font-family: 'Open Sans', sans-serif;
 }
@@ -111,7 +114,7 @@ header{
 	display: flex;
 }
 .nav{
-	weight: 100vw;
+	width: 100vw;
 }
 .nav-burger>a{
 	width: 42px;
