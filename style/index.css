@@ -15,8 +15,9 @@ header{
 	display: flex;
 	padding: 0px;
 	position:fixed;
+	justify-content: space-around;
 	width: 100vw;
-	height: 42px;
+	height: 48px;
 }
 .w-full{
 	width: 100%;
@@ -44,12 +45,14 @@ header{
 }
 .c5-12{
 	width: 41.77%;
+	padding: 0px 8px;
 }
 .c6-12{
 	width: 50.00%;
 }
 .c7-12{
 	width: 58.33%;
+	padding: 0px 8px;
 }
 .c8-12{
 	width: 66.66%;
@@ -73,9 +76,9 @@ header{
 	background-color: rgb(58, 58, 58);
 }
 .btn{
-	min-width: 120px;
-	max-width: 35%;
-	width: 35%;
+	min-width: 100px;
+	max-width: 32%;
+	width: 32%;
 	height: 60%;
 	border-radius: 5px;
 	text-decoration:none;
@@ -113,9 +116,7 @@ header{
 .flex{
 	display: flex;
 }
-.nav{
-	width: 100vw;
-}
+
 .nav-burger>a{
 	width: 42px;
 	height: 42px;
@@ -160,28 +161,6 @@ header>img{
 	overflow-x: scroll;
 	overflow-y: hidden;
 }
-@media only screen and (min-width: 600px) {
-	.nav{
-		justify-content: space-between;
-		height: 62px;
-	}
-	.c5-12{
-		width: 25%;
-	}
-	.c7-12{
-		width: 25%;
-	}
-	.nav-body {
-	  justify-content: center;
-	}
-	.btn{
-		max-width: 35%;
-		width: 20%;
-		margin: 0px 8px;
-		padding:5px 8px;
-	}
-	
-}
 .nav-body::-webkit-scrollbar {
 	display: none;
     }
@@ -218,4 +197,27 @@ header>img{
 }
 .items>a:hover{
 	border-bottom: thick solid rgb(245, 248, 54);
+}
+@media only screen and (min-width: 600px) {
+	.nav{
+		justify-content: space-between;
+		height: 62px;
+	}
+	.c5-12{
+		width: 25%;
+	}
+	.c7-12{
+		width: 25%;
+	}
+	.nav-body {
+	  justify-content: center;
+	}
+	.btn{
+		min-width: 120px;
+		max-width: 35%;
+		width: 20%;
+		margin: 0px 8px;
+		padding:5px 8px;
+	}
+	
 }
