@@ -73,8 +73,8 @@ header{
 	background-color: rgb(58, 58, 58);
 }
 .btn{
-	min-width: 120px;
-	height: 32px;
+	min-width: 40%;
+	height: 60%;
 	border-radius: 5px;
 	text-decoration:none;
 	font-size:12px;
@@ -88,9 +88,15 @@ header{
 	color: black;
 	background-color: rgb(243, 233, 92);	
 }
+.btn-primary:hover{
+	background-color: rgb(236, 223, 38);	
+}
 .btn-secondary{
 	color: white;
 	background-color: rgb(58, 58, 58);
+}
+.btn-secondary:hover{
+	background-color: rgb(39, 39, 39);
 }
 .items-center{
 	align-items: center;
@@ -151,9 +157,6 @@ header>img{
 	overflow-x: scroll;
 	overflow-y: hidden;
 }
-.nav>div>button{
-	max-width: 60%;
-}
 .nav-body::-webkit-scrollbar {
 	display: none;
     }
@@ -175,7 +178,7 @@ header>img{
 	align-items: center;
 	text-align: center;
 	text-decoration: none;
-	min-height: 45px;
+	min-height: 48px;
 	min-width: 90px;
 	margin: 0px 38px;
 }
