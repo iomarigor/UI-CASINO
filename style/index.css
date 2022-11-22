@@ -153,13 +153,34 @@ header>img{
 .nav-body{
 	display: flex;
 	flex-direction: row;
-	justify-content: center;
 	width: 100vw;
 	background-color: rgb(51, 47, 83);
 	height: 52px;
 	position: relative;
 	overflow-x: scroll;
 	overflow-y: hidden;
+}
+@media only screen and (min-width: 600px) {
+	.nav{
+		justify-content: space-between;
+		height: 62px;
+	}
+	.c5-12{
+		width: 25%;
+	}
+	.c7-12{
+		width: 25%;
+	}
+	.nav-body {
+	  justify-content: center;
+	}
+	.btn{
+		max-width: 35%;
+		width: 20%;
+		margin: 0px 8px;
+		padding:5px 8px;
+	}
+	
 }
 .nav-body::-webkit-scrollbar {
 	display: none;
